@@ -36,6 +36,3 @@ This project demonstrates a relational database model designed to support effici
 - Build a dashboard to monitor real-time allocation and resource gaps
 - Apply ML for predictive modeling of relief needs based on past events
 
----
-
-**Developed as part of a database systems course project focused on real-world humanitarian data modeling and analysis.**
