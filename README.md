@@ -8,11 +8,11 @@ This project demonstrates a relational database model designed to support effici
 - Analyze and visualize key metrics such as disaster impact, supply-demand mismatches, and resource distribution patterns
 
 ## Project Structure
-- `ER_Diagram` – Entity Relationship Diagram (conceptual model)
-- `Physical_Model` – Overview of data types, keys, partitioning, and Delta Lake strategy
-- `Schema` – SQL code to create tables in Databricks
-- `Business_queries` – Analytical queries to extract insights from the database
-- `Dashboard_screenshots/` – Sample output visualizations used for insights
+- schema_summary.sql – SQL code to create normalized tables in Databricks
+- etl_insert_statements.sql – Data insertion logic to populate tables from cleaned EM-DAT and simulated relief data
+- business_queries.sql – Analytical queries for disaster trends, resource needs, and supply gaps
+- Databricks_Disaster_Dashboard.png – Dashboard visualization showcasing key insights (event share, damages, supply gaps, etc.)
+- README.md – Project overview, structure, and usage instructions
 
 ## Technologies Used
 - SQL (Databricks SQL)
